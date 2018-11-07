@@ -8,7 +8,7 @@
   <title>HV Rafael Alonso Diaz</title>
 </head>
   <body>
-    <header>
+    <header id="cabecera">
       <?xml version="1.0"?>
       <svg width="170" height="70" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
        <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
@@ -20,29 +20,35 @@
       <h1>Hoja de Vida</h1>
     </header>
     <main>
-      <h2>Nombre y Apellidos:</h2>
-      <h3>Rafael Alonso Díaz</h3>
-      <h2>Fecha y lugar de nacimiento:</h2>
-      <h3>28/12/1971, Santa Clara, Cuba</h3>
-      <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
-      <h2>Información Personal</h2>
-      <img src="images/FotoRafael.jpg" alt="Foto" width="150px" height="190px" />
-      <div id="inf_personal" style="width: 60%; text-align: justify;">
-        <p>Ingeniero en Telecomunicaciones y Electrónica con conocimientos y experiencia laboral en las áreas de
+      <section id="Datos_personales">
+        <h2>Nombre y Apellidos:</h2>
+        <h3>Rafael Alonso Díaz</h3>
+        <h2>Fecha y lugar de nacimiento:</h2>
+        <h3>28/12/1971, Santa Clara, Cuba</h3>
+      </section>
+      <nav id="nav_bar">
+        <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+      </nav>
+      <section id="inf_personal">
+        <h2>Información Personal</h2>
+        <img src="images/FotoRafael.jpg" alt="Foto" width="150px" height="190px" />
+        <div id="perfil" style="width: 60%; text-align: justify;">
+          <p>Ingeniero en Telecomunicaciones y Electrónica con conocimientos y experiencia laboral en las áreas de
 Redes de Datos, Sistemas de Telecomunicaciones, Electrónica y Diseños web, con amplia capacidad
 de crear y mantener relaciones interpersonales, disposición continua al aprendizaje y al trabajo en
 equipo.Persona motivada, de compromiso ético, con alto nivel de responsabilidad y pro-actividad.
-        </p>
-      </div>
-      <b>Conocimientos idiomáticos:</b>
-      <ul id="nivel_idioma">
-        <li>Español</li>
-        Nivel Oral: Nativo    Nivel Escrito: Nativo
-        <li>Ingles</li>
-        Nivel Oral: Básico    Nivel Escrito: Básico
-      </ul>
+          </p>
+        </div>
+        <b>Conocimientos idiomáticos:</b>
+        <ul id="nivel_idioma">
+          <li>Español</li>
+          Nivel Oral: Nativo    Nivel Escrito: Nativo
+          <li>Ingles</li>
+          Nivel Oral: Básico    Nivel Escrito: Básico
+        </ul>
+      </section>
     </main>
-    <footer>
+    <footer style="margin-top: 10px;">
       <b>Correo electrónico:</b> ralondiaz@gmail.com  | <b>Teléfonos:</b> +(593)(02)24-9800 +(593)(0)997535550
     </footer>
   </body>
